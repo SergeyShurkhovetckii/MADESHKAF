@@ -1,20 +1,14 @@
 .social {
-    display: flex;
-    flex-direction: column;
     &__item {}
 
     &__row {
         display: flex;
-        justify-content:space-between;
         flex-direction: column;
-        align-items: center;
+        gap:rem(17);
     }
-    &__item::before{
-        content:"";
-        border: 2px solid #fff;
-        width:rem(450);
-        transform: rotate(90deg);
-
-
-    }
+}
+.border{
+    border :2px solid #fff;
+    width :500px;
+    transform: rotate(90deg);
 }
