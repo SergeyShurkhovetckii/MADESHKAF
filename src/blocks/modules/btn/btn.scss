@@ -1,0 +1,14 @@
+.btn {
+    font-size: rem(26);
+    line-height: rem(28);
+    cursor: pointer;
+    border-radius: rem(8);
+    display:flex;
+    justify-content: center;
+
+    &--active {
+        background: $gold;
+        color: #fff;
+
+    }
+}

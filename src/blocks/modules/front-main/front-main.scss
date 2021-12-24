@@ -1,0 +1,38 @@
+.front-main {
+    display:flex;
+    justify-content: space-between;
+    
+    &__control{
+        width:50%;
+        padding-top: rem(208);
+        padding-bottom: rem(300);
+    }
+    &__btn {
+        padding-top: rem(14);
+        padding-bottom: rem(14);
+        width: calc(100% / 6 * 3);
+    }
+
+
+    &__count {
+        
+    }
+
+    &__form {
+        width:calc(100% / 6 * 5);
+        
+    }
+
+    &__subtitle {
+        font-size: rem(33);
+        line-height: rem(28);
+    }
+
+    &__title {
+        font-family: 'Cormorant', serif;
+        font-weight: 400;
+        font-size: rem(70);
+        line-height: rem(28);
+    }
+}
+
