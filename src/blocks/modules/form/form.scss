@@ -1,6 +1,22 @@
-.form{
+.form {
     background: #FBFBFB;
     border-radius: 8px;
-    border:none;
-    width:100%;
+    border: none;
+    width: 100%;
+    padding: rem(11) rem(0) rem(11) rem(0);
+    @include r (1196){
+        width: 100%;
+    }
+}
+
+@include placeholder {
+    font-family: 'Gilroy';
+    font-size: rem(26);
+    line-height: rem(28);
+    color: rgba(7, 7, 7, 0.39);
+    padding-left: rem(20);
+
+    @include r (1196) {
+        font-size: rem(19);
+    }
 }

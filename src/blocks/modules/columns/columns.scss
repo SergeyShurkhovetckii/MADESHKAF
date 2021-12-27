@@ -1,10 +1,13 @@
-// .columns{
-//     &__2{
-//         // display: flex;
-//         // justify-content: space-between;
-//         // align-items: center;
-//         display:grid;
-//         grid-template-columns:(1fr 1fr);
-//         justify-content: space-between;
-//     }
-// }
+.columns{
+    display:flex;
+    justify-content: space-between;
+    @include r (1196){
+        flex-direction:column;
+    }
+    &__2{
+        width:50%;
+        @include r (1196){
+            width: 100%;
+        }
+    }
+}

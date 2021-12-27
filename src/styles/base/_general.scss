@@ -28,6 +28,21 @@ a{
         background-position: center;
         background-repeat: no-repeat;
     }
+    &__mbg {
+        
+        @include r (1196){
+            background: rgba(53, 53, 53, 0.24);
+            backdrop-filter: blur(32px);
+            width: 100%;
+            position:absolute;
+            left: 0;
+            margin-top: rem(101);
+            margin-bottom: rem(170);
+        }
+       
+    }
 }
+
+
 
 

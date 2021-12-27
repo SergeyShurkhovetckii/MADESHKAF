@@ -1,31 +1,40 @@
 .front-main {
-    display:flex;
-    justify-content: space-between;
-    
     &__control{
-        width:50%;
         padding-top: rem(208);
         padding-bottom: rem(300);
+        @include r (1196){
+            padding-top: rem(32);
+            padding-bottom: rem(32);
+        }
     }
     &__btn {
         padding-top: rem(14);
         padding-bottom: rem(14);
         width: calc(100% / 6 * 3);
+        @include r (1196){
+            width: 100%;
+        }
     }
 
-
     &__count {
-        
+        // тут будет счетчик 
     }
 
     &__form {
         width:calc(100% / 6 * 5);
+        @include r(1196){
+            width: 100%;
+        }
         
     }
 
     &__subtitle {
         font-size: rem(33);
         line-height: rem(28);
+        @include r (1196){
+            font-size: rem(20);
+            line-height: rem(19);
+        }
     }
 
     &__title {
@@ -33,6 +42,9 @@
         font-weight: 400;
         font-size: rem(70);
         line-height: rem(28);
+        @include r (1196){
+            font-size: rem(39);
+        }
     }
 }
 

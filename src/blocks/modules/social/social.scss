@@ -1,14 +1,34 @@
 .social {
-    &__item {}
+    padding-top: rem(15);
+    @include r (1196){
+        display:flex;
+        justify-content:space-between;
+        
+    }
+    &__item {
+        &--border {
+            @include r (1196){
+                display:none;
+        }
+    }
+        &--contact {
+            display: none;
+            @include r (1196){
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
 
     &__row {
         display: flex;
         flex-direction: column;
         gap:rem(17);
+        align-items: center;
+        @include r (1196){
+            flex-direction: row;
+            justify-content: space-between;
+            gap:rem(15);
+        }
     }
-}
-.border{
-    border :2px solid #fff;
-    width :500px;
-    transform: rotate(90deg);
 }
