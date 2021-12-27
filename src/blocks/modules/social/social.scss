@@ -1,8 +1,11 @@
 .social {
     padding-top: rem(15);
+    padding-bottom: rem(44);
     @include r (1196){
         display:flex;
         justify-content:space-between;
+        padding-top: rem(63);
+        padding-bottom: rem(56);
         
     }
     &__item {

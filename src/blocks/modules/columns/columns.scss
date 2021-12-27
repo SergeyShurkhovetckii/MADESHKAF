@@ -1,6 +1,7 @@
 .columns{
     display:flex;
     justify-content: space-between;
+    align-items: center;
     @include r (1196){
         flex-direction:column;
     }

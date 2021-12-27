@@ -23,11 +23,11 @@
     &__link {
         font-size: rem(24);
         line-height: rem(28);
-        color: #FFFFFF;
+        color: #fff;
         @include r (1196){
             font-size: rem(18);
         }
-        
+
         &--active {}
     }
 

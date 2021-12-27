@@ -9,7 +9,6 @@ body{
     font-size: rem(30);
     line-height: rem(44);
     color: #000;
-    background: #000;
 }
 a{
     text-decoration: none;
@@ -18,28 +17,23 @@ a{
 
 .front-main {
     &__bg {
-        position: absolute;
+        // position: absolute;
         width: 100%;
-        // background:url(../../../img/bg-main.svg);
-
-        background: url('https://via.placeholder.com/1920x600?text=тут изображение главное.');
-        min-height:100%;
+        background:url(../../../img/bg-main.svg);
+        // background: url('https://via.placeholder.com/1920x600?text=тут изображение главное.');
+        min-height: 100%;
         background-size:cover;
         background-position: center;
         background-repeat: no-repeat;
     }
     &__mbg {
-        
         @include r (1196){
             background: rgba(53, 53, 53, 0.24);
             backdrop-filter: blur(32px);
             width: 100%;
-            position:absolute;
-            left: 0;
             margin-top: rem(101);
             margin-bottom: rem(170);
         }
-       
     }
 }
 
