@@ -13,6 +13,10 @@ body{
 a{
     text-decoration: none;
 }
+img{
+    width: 100%;
+    height: auto;
+}
 
 
 .front-main {
@@ -31,8 +35,9 @@ a{
             background: rgba(53, 53, 53, 0.24);
             backdrop-filter: blur(32px);
             width: 100%;
-            margin-top: rem(101);
-            margin-bottom: rem(170);
+            margin-top: rem(133);
+            padding-top: rem(32);
+            padding-bottom: rem(32);
         }
     }
 }
