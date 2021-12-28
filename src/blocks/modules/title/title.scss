@@ -1,0 +1,26 @@
+.title{
+    font-family: 'Cormorant';
+    &__h2{
+        font-weight: 400;
+        font-size: rem(68);
+        line-height: rem(71);
+        color: #11100E;
+        @include r (1196){
+            font-size: rem(39);
+            line-height: rem(42);
+        }
+    }
+    &__h3{
+        font-weight: 400;
+        font-size: rem(68);
+        line-height: rem(28);
+        @include r (1196){
+            font-size:rem(39);
+            line-height: rem(28);
+        }
+    }
+    &--gold{
+        color:$gold;
+    }
+
+}

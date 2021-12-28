@@ -1,0 +1,44 @@
+
+
+.decor {
+    position: absolute;
+    border:1px solid #000;
+    width: rem(100);
+    &__left {
+        top: 50px;
+        left: -50px;
+        transform: rotate(90deg);
+        &--2 {
+            top: 0;
+        }
+    }
+
+    &__right {
+        top: rem(78);
+        right:rem(-50);
+        transform: rotate(90deg);
+        &--2 {
+            top: 0;
+            right:rem(28);
+        }
+    }
+    &__botleft {
+        bottom:rem(78);
+        left:rem(-50);
+        transform: rotate(90deg);
+        &--2 {
+            left: rem(28);
+            bottom:0;
+        }
+    }
+
+    &__botright {
+        bottom: 50px;
+        right:-50px;
+        transform: rotate(90deg);
+        &--2 {
+            right: 0;
+            bottom:0;
+        }
+    }
+}
