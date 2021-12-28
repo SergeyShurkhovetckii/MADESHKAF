@@ -1,0 +1,10 @@
+.link{
+    text-decoration: none;
+    :hover{
+        opacity: 0.1;
+    }
+    &--gold{
+        color: $gold;
+        border-bottom: 1px solid #937A60;
+    }
+}
