@@ -1,10 +1,16 @@
 .link{
     text-decoration: none;
+    font-size: rem(30);
+    line-height: rem(28);
     :hover{
         opacity: 0.1;
     }
     &--gold{
         color: $gold;
         border-bottom: 1px solid #937A60;
+    }
+    @include r (1196){
+        font-size: rem(19);
+        
     }
 }

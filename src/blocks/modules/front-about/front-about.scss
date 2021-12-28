@@ -24,7 +24,7 @@
         // text-align: center;
         @include r (1196){
             visibility: visible;
-            display: block;
+            display: inline-block;
         }
     }
 }
