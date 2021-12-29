@@ -19,6 +19,15 @@
             line-height: rem(28);
         }
     }
+    &__h4{
+        font-weight: 400;
+        font-size: rem(60);
+        line-height: rem(28);
+        @include r (1196){
+            font-size: rem(39);
+            line-height: rem(40);
+        }
+    }
     &--gold{
         color:$gold;
     }
