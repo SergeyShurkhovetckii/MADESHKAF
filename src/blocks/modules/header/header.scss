@@ -1,10 +1,11 @@
 .header {
-    background:transparent;
+    background: transparent;
 
     &__burger {
-        display:none;
-        @include r (1196){
-            display:block;
+        display: none;
+
+        @include r (1196) {
+            display: block;
         }
     }
 
@@ -13,18 +14,21 @@
     &__logo {}
 
     &__menu {
-        display:flex;
+        display: flex;
         justify-content: space-between;
-        gap:rem(20);
-        @include r (1196){
-            display:none;
+        gap: rem(20);
+
+        @include r (1196) {
+            display: none;
         }
     }
+
     &__link {
         font-size: rem(24);
         line-height: rem(28);
         color: #fff;
-        @include r (1196){
+
+        @include r (1196) {
             font-size: rem(18);
         }
 
@@ -33,19 +37,32 @@
 
     &__row {
         display: flex;
-        justify-content:space-between;
+        justify-content: space-between;
         align-items: center;
     }
 
-    &__contact{
+    &__contact {
         display: flex;
         flex-direction: column;
-        @include r (1196){
-            display:none;
+
+        @include r (1196) {
+            display: none;
         }
     }
+
     &__operating {}
 
     &__tel {}
-   
+
+    &--fixed {
+        position: fixed;
+        background: #fff;
+        width: 100%;
+        z-index: 1000;
+        padding-top: rem(10);
+    }
+}
+
+.link--fixed{
+    color: #000;
 }
