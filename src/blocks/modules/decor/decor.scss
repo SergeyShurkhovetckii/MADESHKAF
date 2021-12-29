@@ -4,6 +4,9 @@
     position: absolute;
     border:1px solid #000;
     width: rem(100);
+    @include r (1196){
+        display: none;
+    }
     &__left {
         top: 50px;
         left: -50px;
@@ -12,6 +15,16 @@
             top: 0;
         }
     }
+    &__catalog-left {
+        top: 0;
+        left: rem(28);
+        &--2{
+            top: rem(76);
+            left: rem(-50);
+            transform: rotate(90deg);
+        }
+    }
+
 
     &__right {
         top: rem(78);
@@ -22,6 +35,17 @@
             right:rem(28);
         }
     }
+    &__catalog-right {
+        top: 0;
+        right: rem(28);
+        &--2{
+            top: rem(76);
+            right: rem(-50);
+            transform: rotate(90deg);
+        }
+    }
+
+
     &__botleft {
         bottom:rem(78);
         left:rem(-50);
@@ -29,6 +53,15 @@
         &--2 {
             left: rem(28);
             bottom:0;
+        }
+    }
+    &__catalog-bottom-left {
+        bottom: rem(0);
+        left: rem(28);
+        &--2{
+            bottom: rem(76);
+            left: rem(-50);
+            transform: rotate(90deg);
         }
     }
 
@@ -39,6 +72,16 @@
         &--2 {
             right: 0;
             bottom:0;
+        }
+    }
+
+    &__catalog-bottom-right {
+        bottom: rem(0);
+        right: rem(28);
+        &--2{
+            bottom: rem(76);
+            right: rem(-50);
+            transform: rotate(90deg);
         }
     }
 }
