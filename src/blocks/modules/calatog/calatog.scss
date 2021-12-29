@@ -5,6 +5,7 @@
         gap: rem(55);
         justify-items: center;
 
+
         @include r (1196) {
             grid-template-columns: (1fr 1fr);
             gap: rem(30);
@@ -22,10 +23,12 @@
         padding-bottom: rem(28);
 
         @include r (1196) {
-            height: rem(267);
-            max-width: rem(160);
+            max-width: 100%;
             padding: 0;
-
+        }
+        @include r (768) {
+            height: rem(267);
+            max-width: rem(114);
         }
     }
 
@@ -96,6 +99,12 @@
         bottom: rem(28);
         right: rem(28);
         left: rem(28);
+        @include r (1196){
+            top: rem(0);
+            bottom: rem(0);
+            right: rem(0);
+            left: rem(0);
+        }
 
         &--closet {
             right: rem(0);
