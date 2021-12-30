@@ -1,20 +1,25 @@
 (function fixedMenuScroll() {
     const header = document.querySelector('.header-scroll');
-    const link = document.querySelector('.header__link');
+    let link = document.querySelectorAll('.header__link');
+
+    
+    for (let i = 0; i < link.length ; i++ ){
+        console.log(link[i]);
+        
 
 
-    if (header && link) {
+    if (header && link[i]) {
         window.addEventListener('scroll', function () {
-            if (window.scrollY > 1000) {
+            if (window.scrollY > 100) {
                 header.classList.add('header--fixed');
-                link.classList.add('link--fixed');
+                link[i].classList.add('link--fixed');
 
 
             } else {
                 header.classList.remove('header--fixed');
-                link.classList.remove('link--fixed');
+                link[i].classList.remove('link--fixed');
 
             }
         })
     }
-})();
+}})();
