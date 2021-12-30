@@ -8,15 +8,23 @@
                         <div class="materials__btn text materials__btn--active">Материалы</div>
                         <div class="materials__btn text">Фурнитура</div>
                         <!-- Мобильный список  -->
-                    <select class="materials__mob-control">
-                        <option value="0" default>
-                            Материалы
-                        </option>
-                        <option value="1">
-                            Фурнитура
-                        </option>
-                    </select>
+                        <select class="materials__mob-control">
+                            <option value="0" default>
+                                Материалы
+                            </option>
+                            <option value="1">
+                                Фурнитура
+                            </option>
+                        </select>
                     </div>
+                    <div class="materials-tab">
+                        @@include("../slider-materials/slider-materials.html")
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                    <div class="materials-tab"></div>
                 </div>
             </div>
         </div>
