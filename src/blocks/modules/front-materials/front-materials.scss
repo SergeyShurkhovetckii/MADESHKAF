@@ -5,6 +5,7 @@
         margin:auto;
     }
     &__btn {
+        cursor: pointer;
         font-size: rem(40);
         line-height: rem(28);
         padding-bottom: rem(25);
@@ -38,4 +39,8 @@
 
 .materials-tab {
     overflow: hidden;
+    display:none;
+    &--active {
+        display: block;
+    }
 }

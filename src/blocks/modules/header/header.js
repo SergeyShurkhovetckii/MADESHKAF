@@ -25,7 +25,7 @@ import Mmenu from 'mmenu-js';
 
     
     for (let i = 0; i < link.length ; i++ ){
-        console.log(link[i]);
+        
         
 
 
