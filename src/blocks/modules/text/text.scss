@@ -9,11 +9,17 @@
         font-size: rem(20);
         line-height: rem(32);
     }
+    &__modern{
+        line-height: rem(28);
+    }
 
     &--white {
         color: #fff;
     }
     &--black {
         color:$black;
+    }
+    &--center {
+        text-align:center;
     }
 }

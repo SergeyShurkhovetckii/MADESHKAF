@@ -1,0 +1,7 @@
+.slide-modern {
+    width: rem(509);
+    height: auto;
+    @include r (1196){
+        width: 100%;
+    }
+}
