@@ -1,22 +1,24 @@
 .mySwiper{
     position: relative;
     overflow: hidden;
-    padding-left: rem(20);
-    padding-right: rem(20);
+   
 }
-.next{
+// Кнопки управления
+.rewiews-next{
     position:absolute;
     right:0;
     top:50%;
     z-index: 100;
 }
-.prev{
+.rewiews-prev{
     position:absolute;
     left:0;
     top:50%;
     z-index: 100;
 }
-.22{
-    width:calc(100% / 12 * 10);
+
+.rewiews-slide{
+    padding-left: rem(90);
+    padding-right: rem(90);
 }
 
