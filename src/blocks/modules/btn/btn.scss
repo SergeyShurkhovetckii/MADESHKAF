@@ -3,16 +3,26 @@
     line-height: rem(28);
     cursor: pointer;
     border-radius: rem(8);
-    display:flex;
+    display: flex;
     justify-content: center;
 
     &--gold {
         background: $gold;
         color: #fff
     }
-    &--gold:hover{
-        transition:0.6s;
+
+    &--gold:hover {
+        transition: 0.6s;
         opacity: 0.8;
 
     }
+}
+
+//Кнопки управления отзывы
+.rewiews-btn {
+    fill: #937A60;
+}
+
+.rewiews-btn:hover {
+    fill: $black;
 }

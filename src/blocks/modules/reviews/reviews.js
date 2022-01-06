@@ -1,6 +1,6 @@
-import Swiper from 'swiper';
+import Swiper_3 from 'swiper';
 
-var swiper = new Swiper(".mySwiper", {
+var swiper = new Swiper_3(".mySwiper", {
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
