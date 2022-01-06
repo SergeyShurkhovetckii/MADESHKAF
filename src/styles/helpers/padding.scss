@@ -5,6 +5,12 @@
             padding-top: rem(55);
         }
     }
+    &__60{
+        padding-top: rem(60);
+        @include r (768){
+            padding-top: rem(30);
+        }
+    }
     &__50{
         padding-top: rem(50);
         @include r (768){
