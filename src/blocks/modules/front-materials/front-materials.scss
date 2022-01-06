@@ -39,8 +39,10 @@
 
 .materials-tab {
     overflow: hidden;
-    display:none;
-    &--active {
-        display: block;
+    display: none;
+    visibility: hidden;
+    &--active{
+        display: block;   
+        visibility: visible;
     }
 }

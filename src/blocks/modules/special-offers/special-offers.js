@@ -1,4 +1,4 @@
-modules.define('materials', ['i-bem-dom'], function(provide, bemDom) {
+modules.define('special-offers', ['i-bem-dom'], function(provide, bemDom) {
 
 provide(bemDom.declBlock(this.name, {
     onSetMod: {

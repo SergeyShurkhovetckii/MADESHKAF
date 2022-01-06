@@ -1,6 +1,6 @@
-import Swiper2 from 'swiper';
+import Swiper_2 from 'swiper';
 
-var swiper = new Swiper2(".swiper-fittings", {
+var swipers = new Swiper_2(".mySwiper", {
     slidesPerView: 2,
     spaceBetween: 30,
     slidesPerGroup: 1,

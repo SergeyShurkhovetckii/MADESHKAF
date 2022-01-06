@@ -3,6 +3,7 @@
     const tab = document.querySelectorAll('.materials-tab');
     const select = document.querySelector('.materials__mob-control');
 
+
     if (materialsBtn && tab && (materialsBtn.length == tab.length)) {
         for (let i = 0; i < materialsBtn.length; i++) {
             materialsBtn[i].addEventListener('click', function (e) {

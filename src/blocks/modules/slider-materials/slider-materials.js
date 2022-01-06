@@ -5,7 +5,6 @@ import Swiper from 'swiper';
     spaceBetween: 30,
     slidesPerGroup: 1,
     loop: true,
-    // loopFillGroupWithBlank: true,
     navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
