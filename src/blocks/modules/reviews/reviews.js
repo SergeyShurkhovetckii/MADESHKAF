@@ -1,9 +1,9 @@
 // Слайдер отзывы
-import Swiper_3 from 'swiper';
+import reviewsSlider from 'swiper';
 
-var swiper_3 = new Swiper_3(".rewiews-Swiper", {
+var swiper_3 = new reviewsSlider(".rewiews-swiper", {
     pagination: {
-        el: ".rewiews-pagination__pagination",
+        el: ".rewiews-swiper__pagination",
         bulletClass:'bullets',
         bulletActiveClass:'bullets--active',
         clickable:true,
@@ -11,7 +11,7 @@ var swiper_3 = new Swiper_3(".rewiews-Swiper", {
         
     },
     navigation: {
-        nextEl: ".rewiews-next",
-        prevEl: ".rewiews-prev",
+        nextEl: ".rewiews-swiper__next",
+        prevEl: ".rewiews-swiper__prev",
     },
 });

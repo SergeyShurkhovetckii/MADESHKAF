@@ -1,56 +1,47 @@
-.rewiews-Swiper{
+.rewiews-swiper{
     position: relative;
     overflow: hidden;
-}
-// Кнопки управления
-.rewiews-next{
-    cursor: pointer;
-    position:absolute;
-    right:0;
-    top:50%;
-    z-index: 100;
-    fill:#937A60;
-    @include r (1196){
-        display: none;
-    }
-}
-.rewiews-prev{
-    cursor: pointer;
-    position:absolute;
-    left:0;
-    top:50%;
-    z-index: 100;
-    @include r (1196){
-        display: none;
-    }
-   
-}
-
-.rewiews-slide{
-    padding-left: rem(90);
-    padding-right: rem(90);
-    @include r (1196){
-        padding-left: rem(30);
-        padding-right: rem(30);
-    }
-}
-
-.rewiews-pagination {
-    margin-top: rem(28);
-    display: flex;
-    justify-content:center;
-    &__pagination {
-        display:flex;
-        gap: rem(18);
-        justify-content: space-between;
+    &__slide {
+        padding-left: rem(90);
+        padding-right: rem(90);
         @include r (1196){
-            gap: rem(7);
+            padding-left: rem(30);
+            padding-right: rem(30);
         }
     }
-
+    &__btn{
+        cursor: pointer;
+        z-index: 100;
+        fill:#937A60;
+        position:absolute;
+        @include r (1196){
+            display: none;
+        }
+    }
+    &__prev{
+        
+        left:0;
+        top:50%;
+    }
+    &__next{
+        right:0;
+        top:50%;
+    }
+    &__pagination{
+        margin-top: rem(28);
+        display: flex;
+        justify-content:center;
+        gap: rem(18);
+        &--control {
+            display:flex;
+            gap: rem(18);
+            justify-content: space-between;
+            @include r (1196){
+                gap: rem(7);
+            }
+        }
+    }
 }
-
-
 
 .bullets{
     cursor: pointer;

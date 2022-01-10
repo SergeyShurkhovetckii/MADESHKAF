@@ -23,6 +23,12 @@ img:hover{
 
 p{
     margin:rem(0);
+    font-size: rem(30);
+    line-height: rem(40);
+    @include r (1196){
+        font-size: rem(19);
+        line-height: rem(29);
+    }
 }
 
 .front-main {
