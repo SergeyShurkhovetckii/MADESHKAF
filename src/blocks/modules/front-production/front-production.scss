@@ -3,9 +3,16 @@
     display: flex;
     justify-content:space-between;
     gap: rem(20);
+    @include r (1196){
+        gap: rem(5);
+    }
     &__col {
         background: url('https://via.placeholder.com/600x600/O https://placeholder.com/') no-repeat center;
         height: rem(604);
         background-size: cover;
+        @include r (1196){
+            width:50%;
+
+        }
     }
 }
