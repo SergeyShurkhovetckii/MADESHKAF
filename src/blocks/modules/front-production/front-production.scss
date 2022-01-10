@@ -1,0 +1,12 @@
+.production-bg {
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    gap: rem(20);
+    &__col {
+        background: url('https://via.placeholder.com/600x600/O https://placeholder.com/') no-repeat center;
+        width: 100%;
+        height: rem(604);
+        background-size: cover;
+    }
+}
