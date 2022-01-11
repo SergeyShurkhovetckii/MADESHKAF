@@ -1,4 +1,6 @@
 .production-bg {
+    text-align: center;
+    position: relative;
     width: 100%;
     display: flex;
     justify-content:space-between;
@@ -7,12 +9,35 @@
         gap: rem(5);
     }
     &__col {
-        background: url('https://via.placeholder.com/600x600/O https://placeholder.com/') no-repeat center;
+        background: url('https://via.placeholder.com/600x600') no-repeat center;
         height: rem(604);
         background-size: cover;
         @include r (1196){
             width:50%;
 
         }
+    }
+}
+.production-content {
+    top: rem(121);
+    position: absolute;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    padding:rem(57);
+    background: rgba(53, 53, 53, 0.24);
+    backdrop-filter: blur(31px);
+    align-items: center;
+    text-align: center;
+    &__row{
+        line-height: rem(28);
+    }
+    &__row:before {
+        content: " 0 ";
+        color: #937A60;
+        position: relative;
+        bottom: rem(7);
+        left: rem(16);
+        z-index: -1;
     }
 }
