@@ -1,0 +1,25 @@
+.production-content {
+    padding:rem(57);
+    background: rgba(53, 53, 53, 0.24);
+    backdrop-filter: blur(31px);
+    text-align: center;
+    @include r (1196){
+        width: 100%;
+        left:0;
+        max_width:100%;
+
+    }
+
+    &__row{
+        line-height: rem(28);
+        display: block;
+    }
+    &__row:before {
+        content: " 0 ";
+        color: #937A60;
+        position: relative;
+        bottom: rem(7);
+        left: rem(16);
+        z-index: -1;
+    }
+}
