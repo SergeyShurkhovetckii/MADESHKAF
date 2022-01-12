@@ -1,0 +1,28 @@
+.work-grid {
+    display: grid;
+    grid-template-columns:(100px 1fr 50px 100px 1fr);
+    gap: rem(28);
+    row-gap:rem(72);
+    align-items: center;
+    justify-content:center;
+    justify-items: center;
+    @include r (1196) {
+        grid-template-columns:(auto);
+    }
+    &__item {
+        cursor: pointer;
+    }
+}
+.text-work{
+    line-height: rem(28);
+}
+.item__arrow{
+    @include r (1196){
+        transform: rotate(90deg);
+    }
+    &--left{
+        @include r (1196){
+            transform: rotate(270deg);
+        }
+    }
+}
