@@ -1,0 +1,25 @@
+.text-contact{
+    line-height:rem(40);
+    @include r (1196){
+        line-height:rem(30);
+    }
+}
+.contact-social {
+    display:flex;
+    justify-content:space-between;
+    gap:rem(18);
+    width:fit-content;
+}
+.contact {
+    &__bg {
+        border-radius: rem(8);
+        // background: url('../../../img/svg/contact-img.svg');
+        background:url('https://via.placeholder.com/1500C/O');
+        height:rem(720);
+        min-height: 100%;
+        background-size:cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding:rem(66);
+    }
+}
