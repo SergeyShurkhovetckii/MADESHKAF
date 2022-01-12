@@ -1,0 +1,30 @@
+.price-2-bg {
+    width: 100%;
+    background-color:#11100E;
+    height: rem(905);
+    @include r (1196){
+        height: 100%;
+    }
+}
+
+.price-2 {
+   
+    &__columns {
+        display: flex;
+        gap: rem(66);
+        align-items: center;
+    }
+    &__pic {
+        height: rem(905);
+        width:100%;
+        @include r (1196){
+            height: auto;
+        }
+    }
+    &__btn{
+        max-width:rem(270);
+        margin-top: rem(34);
+        padding-top: rem(14);
+        padding-bottom: rem(14);
+    }
+}
