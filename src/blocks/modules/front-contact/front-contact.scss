@@ -22,4 +22,14 @@
         background-repeat: no-repeat;
         padding:rem(66);
     }
+    &__item{
+        display: flex;
+    }
+    &__item-btn {
+        max-width:rem(240);
+        padding-top: rem(14);
+        padding-bottom: rem(14);
+        margin: 0 auto;
+    }
+
 }
