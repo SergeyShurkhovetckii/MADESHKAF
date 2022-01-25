@@ -6,3 +6,4 @@ import "%modules%/slider-fittings/slider-fittings";
 import "%modules%/reviews/reviews";
 
 import "%modules%/footer/footer"
+import "%modules%/btn-top/btn-top"

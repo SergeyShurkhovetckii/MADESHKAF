@@ -37,6 +37,9 @@
 }
 .svg-social{
     fill:#fff;
+    &--gold{
+        fill: $gold;
+    }
 }
 .svg-viber:hover{
     fill:#7360f2;

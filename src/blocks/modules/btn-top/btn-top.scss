@@ -1,0 +1,29 @@
+.back_to_top {
+    position: fixed;
+    bottom: rem(80);
+    right: rem(80);
+    z-index: 9999;
+    width: rem(76);
+    height: rem(76);
+    text-align: center;
+    line-height: rem(30);
+    background: transparent;
+    color: #444;
+    cursor: pointer;
+    border :1px solid #AF9678;
+    display: none;
+}
+
+.back_to_top:hover {
+    opacity: 0.5;
+    transition:0.5s;
+}
+
+.back_to_top-show {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.arrow-top{
+    fill: $gold;
+}
