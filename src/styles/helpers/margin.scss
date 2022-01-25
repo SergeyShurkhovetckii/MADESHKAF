@@ -1,4 +1,10 @@
 .mar{
+    &__190{
+        margin-top: rem(190);
+        @include r (1196){
+            margin-top: rem(100);
+        }
+    }
     &__150{
         margin-top: rem(150);
         @include r (1196){

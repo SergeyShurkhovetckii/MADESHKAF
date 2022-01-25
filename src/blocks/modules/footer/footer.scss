@@ -1,0 +1,19 @@
+.footer {
+    padding-bottom: rem(50);
+    &__col {}
+
+    &__link {
+        color:#fff;
+    }
+    &__link:hover {
+        color: $black;
+    }
+
+    &__menu {
+        display: flex;
+        flex-direction: column;
+        gap: rem(16);
+    }
+
+    &__row {}
+}
