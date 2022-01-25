@@ -9,21 +9,23 @@
     justify-content:space-between;
     gap:rem(18);
     width:fit-content;
+    @include r (1196){
+        width: 100%;
+    }
 }
 .contact {
     &__bg {
         border-radius: rem(8);
-        // background: url('../../../img/svg/contact-img.svg');
-        background:url('https://via.placeholder.com/1500C/O');
+        background: url('../../../img/bg-contact.png');
         height:rem(720);
         min-height: 100%;
         background-size:cover;
         background-position: center;
         background-repeat: no-repeat;
         padding:rem(66);
+        
     }
     &__item{
-        display: flex;
     }
     &__item-btn {
         max-width:rem(240);
@@ -31,5 +33,10 @@
         padding-bottom: rem(14);
         margin: 0 auto;
     }
+}
 
+.contact-info{
+    @include r (1196){
+        flex-direction: column-reverse;
+    }
 }

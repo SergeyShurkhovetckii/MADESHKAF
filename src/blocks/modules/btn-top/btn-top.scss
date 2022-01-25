@@ -12,6 +12,14 @@
     cursor: pointer;
     border :1px solid #AF9678;
     display: none;
+    @include r(1196){
+        bottom:0;
+        right:0;
+        width: 100%;
+        height: rem(35);
+        background: #000;
+
+    }
 }
 
 .back_to_top:hover {
