@@ -18,12 +18,30 @@
 | Темный | ![#11100E](https://via.placeholder.com/10/11100E?text=+) #11100E |
 | Белый | ![#FFFFFF](https://via.placeholder.com/10/FFFFFF?text=+) #FFFFFF |
 
+## Технологии
 
-## Screenshots
+- html
+- scss , css
+- js
+- gulp
+- БЭМ
+- сетка smart-grid
 
-![App Screenshot]
+## Фишки
+
+- Мобильное меню 
+- Кнопка наверх
+- Слайдер
+- Прибитое меню
+
+
+## Скриншот полного экрана
 
 <img src="screencapture.png">
+
+## Скриншот мобильной версии
+
+<img src="screencapture-mob.png">
 
 
 ## Demo
