@@ -21,7 +21,9 @@
 
 ## Screenshots
 
-![App Screenshot](<img src="screencapture.png">)
+![App Screenshot]
+
+<img src="screencapture.png">
 
 
 ## Demo
