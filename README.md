@@ -40,9 +40,9 @@
 <img src="screencapture.png">
 
 ## Скриншот мобильной версии
-
+<div>
 <img src="screencapture-mob.png">
-
+</div>
 
 ## Demo
 
